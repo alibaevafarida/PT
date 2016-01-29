@@ -11,7 +11,11 @@ namespace ConsoleApplication8
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Enter your name");
+            string name=Console.ReadLine();
+            Console.WriteLine("Hello , {0}! Pleae, choose the option:  1-minimum , 2- maximum", name);
+            string  ch = Console.ReadLine(); 
+           
             FileStream file1 = new FileStream("file1.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite); // создаем поток файлов
             FileStream file2 = new FileStream("file2.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
             StreamWriter sw = new StreamWriter(file2); //создаем потоковый писатель
@@ -40,9 +44,14 @@ namespace ConsoleApplication8
                     max = int.Parse(s);
                 }
             }
-
-            Console.WriteLine("minimum = {0} , maximum = {1}" ,min, max);
-
+            if (ch == "1") 
+            {
+                Console.WriteLine("minimum is = {0} ", min);
+            }
+            else if (ch == "2")
+            {
+                Console.WriteLine("maximum is = {0}", max);
+            }
 
            
             sw.Close(); 
