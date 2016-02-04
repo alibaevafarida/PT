@@ -44,6 +44,8 @@
     <Compile Include="models\Coordinate.cs" />
     <Compile Include="models\Drawer.cs" />
     <Compile Include="models\Food.cs" />
+    <Compile Include="models\Game.cs" />
+    <Compile Include="models\Snake.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

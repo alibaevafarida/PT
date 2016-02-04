@@ -14,8 +14,9 @@ namespace ConsoleApplication1.models
         public char figure;
         public List<Coordinate> body = new List<Coordinate>(); //vector coordinat
         public  Drawer () { } //?
-        public  void Draw { //function to draw
-            Console.ForegroundColor=color;   // 
+        public  void Draw //function to draw
+        { 
+            Console.ForegroundColor = color;   
             foreach (Coordinate  c in body) //each point became figure
                 {
                 Console.SetCursorPosition(p.x, p.y); 
@@ -25,7 +26,6 @@ namespace ConsoleApplication1.models
         
     }
 }
-        }
+        
 
-    }
-}
+

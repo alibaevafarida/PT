@@ -5,3 +5,4 @@ C:\Users\Farida\Desktop\PT_labs\ConsoleApplication1\ConsoleApplication1\obj\Debu
 C:\Users\Farida\Desktop\PT_labs\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\Farida\Desktop\PT_labs\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
 C:\Users\Farida\Desktop\PT_labs\ConsoleApplication1\ConsoleApplication1\bin\Debug\models.exe.config
+C:\Users\Farida\Desktop\PT_labs\PT\Snake\ConsoleApplication1\bin\Debug\models.exe.config

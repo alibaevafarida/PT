@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1.models
 {
-    class Food
+    class Food : Drawer 
     {
+        color = ConsoleColor.Yellow;
     }
 }
